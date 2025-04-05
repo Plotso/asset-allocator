@@ -1,0 +1,34 @@
+{
+    "crypto": {
+        "currency": "EUR",
+        "assets": [
+            {"name": "BTC", "percentage": 0},
+            {"name": "ETH", "percentage": 20},
+            {"name": "XRP", "percentage": 15},
+            {"name": "SOL", "percentage": 10},
+            {"name": "HBAR", "percentage": 20},
+            {"name": "DOT", "percentage": 10},
+            {"name": "ADA", "percentage": 5},
+            {"name": "HYPE", "percentage": 0},
+            {"name": "VET", "percentage": 5},
+            {"name": "ALGO", "percentage": 0},
+            {"name": "SUI", "percentage": 5},
+            {"name": "TON", "percentage": 5},
+            {"name": "LINK", "percentage": 5}
+          ]
+    },
+    "stocks": {
+        "currency": "USD",
+        "assets": [
+            {"name": "MSFT", "percentage": 25},
+            {"name": "NVDA", "percentage": 25},
+            {"name": "GOOGL", "percentage": 15},
+            {"name": "AMZN", "percentage": 15},
+            {"name": "TTWO", "percentage": 15},
+            {"name": "TSLA", "percentage": 5},
+            {"name": "COIN", "percentage": 0},
+            {"name": "NU", "percentage": 0},
+            {"name": "NIO", "percentage": 0}
+          ]
+    }
+  }
