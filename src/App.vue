@@ -61,7 +61,7 @@ export default {
 
     onMounted(async () => {
       try {
-        const response = await fetch('/config.json');
+        const response = await fetch(`${process.env.BASE_URL}config.json`);
         const data = await response.json();
         cryptoAssets.value = data.crypto.assets.map(asset => ({ ...asset }));
         cryptoCurrency.value = data.crypto.currency;
